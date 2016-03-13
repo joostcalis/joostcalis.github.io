@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  background: #F7FCFF;
+  text-align: left;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  margin-left: 5px;
+}
+
+.logo img {
+  height: 18.75em;
+  margin-top: 6em;
+}
+
+h1 {
+  color: rgba(0,0,0,0.5);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.doc {
+  margin: 3em 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+
+  a {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0.75em 0.7em;
+    color: white;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    &:hover {
+      background: rgba(0,0,0,0.2);
+      color: white;
+      transition: all 0.15s linear;
+    }
+  }
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+}
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+.main {
+  border-top: 1px solid black;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.index-right {
+  font-size: 0.7em;
+}
+
+.image {
+  width: 75%;
+  box-shadow: 2px 2px 5px #888888;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 15%;
+  // background-color: #b3e3ff;
+}
+
+.previous-button {
+  position: fixed;
+  margin-top: 19%;
+}
+
+.next-button {
+  position: fixed;
+  margin-top: 19%;
+}
+
+a {
+  color: #006199;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #004166;
+}
+
+.article-title {
+  margin-bottom: 35px;
+  margin-top: 25px;
+  color: black;
+  text-align: center;
+}
+
+.navigation {
+  background-color: #00304d;
+}
+
+.navbar-list {
+  color: #F7FCFF !important;
+}
+.navbar-list:hover {
+  color: black !important;
+}
