@@ -461,3 +461,15 @@ a:hover {
 /* line 122, site.css.scss */
 .navbar-list:hover {
   color: black !important; }
+
+/* line 126, site.css.scss */
+.welcome-header {
+  margin-bottom: 20px;
+  text-align: center;
+  color: black; }
+
+/* line 131, site.css.scss */
+.welcome-header1 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: black; }
