@@ -464,11 +464,12 @@ a:hover {
 
 /* line 126, site.css.scss */
 .welcome-header {
+  margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
   color: black; }
 
-/* line 131, site.css.scss */
+/* line 132, site.css.scss */
 .welcome-header1 {
   margin-bottom: 50px;
   text-align: center;
