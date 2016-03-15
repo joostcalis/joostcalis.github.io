@@ -12,18 +12,47 @@ layout: index
 <% end %>
 <div class="container-fluid">
   <div class= "row">
-<% page_articles.each_with_index do |article, i| %>
-<div class="col-md-6">
-  <div class="main">
-  <h2><%= link_to article.title, article %> </h2>
-  <p><span><%= article.date.strftime('%b %e') %></span></p>
+    <div class="col-md-12">
+      <h1 class="welcome-header">Welcome to my Blog!</h1>
+      <p class="welcome-header1">Read along on my way to becoming a Jr Developer</p>
+    </div>
+  </div>
+  <div class= "row">
+    <div class="col-md-10">
+      <div class="container-fluid">
+        <div class="row">
+          <% page_articles.each_with_index do |article, i| %>
+          <div class="col-md-6">
+            <div class="main">
+              <h2><%= link_to article.title, article %> </h2>
+              <p><span><%= article.date.strftime('%b %e') %></span></p>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <%= article.summary(75) %>
+              <%= article.summary(75) %>
+            </div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="col-centered">
+        <h2>Tags</h2>
+        <ol>
+          <% blog.tags.each do |tag, articles| %>
+            <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+          <% end %>
+        </ol>
+
+        <h2>By Year</h2>
+        <ol>
+          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+            <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+          <% end %>
+        </ol>
+      </div>
+    </div>
   </div>
-</div>
-<% end %>
-</div>
 </div>
 
 <% if paginate %>

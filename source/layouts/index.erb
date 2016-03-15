@@ -6,7 +6,7 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "Road to Jr Developer" %></title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
@@ -45,29 +45,8 @@
               </svg></span></a>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-10">
-    <%= yield %>
-        </div>
-        <div class="col-md-2 index-right">
-          <div class="col-centered">
-          <h2>Tags</h2>
-          <ol>
-            <% blog.tags.each do |tag, articles| %>
-              <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-            <% end %>
-          </ol>
 
-          <h2>By Year</h2>
-          <ol>
-            <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-              <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-            <% end %>
-          </ol>
-        </div>
-        </div>
-      </div>
-    </div>
+    <%= yield %>
+
   </body>
 </html>

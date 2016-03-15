@@ -18,9 +18,9 @@ gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 gem "middleman", "~> 4.1.0"
 gem "middleman-blog"
-gem "middleman-deploy", "~> 1.0"
+gem "middleman-deploy", "~> 2.0.0-alpha"
 
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'redcarpet'
 
 # For feed.xml.builder
-gem "builder", "~> 3.0"
+gem "builder"
