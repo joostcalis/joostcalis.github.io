@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2016/03/13/week5-hello-rspec.html"/>
     <id>http://blog.url.com/2016/03/13/week5-hello-rspec.html</id>
     <published>2016-03-13T01:00:00+01:00</published>
-    <updated>2016-03-13T21:57:45+01:00</updated>
+    <updated>2016-03-18T20:40:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -30,7 +30,7 @@
 
 &lt;h3&gt;&lt;strong&gt;RIP nutty professor&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;The things with testing is, that it forces you to take small steps and keep constant confidence that whatever you&amp;rsquo;re coding is working, and not breaking any other parts of your code in the same time. It only works though if you stay disciplined enough to keep writing tests before you create new functionality. All this combined basically meant that the nutty professor had to go. I was a bit reluctant to let him go at first. I kind of enjoyed the chaos of code now, ask questions later. But soon I also noticed that even with TDD he is still there, he just works a lot more efficient with some discipline.&lt;/p&gt;
+&lt;p&gt;The thing with testing is, that it forces you to take small steps and keep constant confidence that whatever you&amp;rsquo;re coding is working, and not breaking any other parts of your code in the same time. It only works though if you stay disciplined enough to keep writing tests before you create new functionality. All this combined basically meant that the nutty professor had to go. I was a bit reluctant to let him go at first. I kind of enjoyed the chaos of code now, ask questions later. But soon I also noticed that even with TDD he is still there, he just works a lot more efficient with some discipline.&lt;/p&gt;
 
 &lt;h3&gt;&lt;strong&gt;React is cool&lt;/strong&gt;&lt;/h3&gt;
 
@@ -39,6 +39,19 @@
 &lt;h3&gt;&lt;strong&gt;Let&amp;rsquo;s go jobhunting!&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;So yeah, 5 weeks have flown by. And while it felt a bit like an ending of something it&amp;rsquo;s so cool to realize it is actually just the beginning. The jobhunting starts now. And as much as that seems like a daunting task, I mean we learned so much these weeks but I don&amp;rsquo;t think its even 1 percent of what there is to learn out there, it doesn&amp;rsquo;t compare to the excitement I feel about getting started and continuing to learn more about this amazing world.&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;Visit Ballparks&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;As with all projects we did these 5 weeks, they are still under constant construction.&lt;br&gt;
+But feel free to visit &lt;a href="
+http://physiotherapist-walrus-68848.bitballoon.com/" target="blank"&gt;Ballparks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And my code at github:   &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the &lt;a href="https://github.com/joostcalis/ballparks" target="blank"&gt;Back End RESTful API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the &lt;a href="https://github.com/joostcalis/ballparks_front" target="blank"&gt;Front End React App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
@@ -81,7 +94,7 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
     <link rel="alternate" href="http://blog.url.com/2016/03/11/week3-coding-like-a-nutty-professor.html"/>
     <id>http://blog.url.com/2016/03/11/week3-coding-like-a-nutty-professor.html</id>
     <published>2016-03-11T01:00:00+01:00</published>
-    <updated>2016-03-13T22:27:55+01:00</updated>
+    <updated>2016-03-18T13:41:10+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -102,6 +115,12 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
 &lt;h3&gt;&lt;strong&gt;Unordered lists? un-styled lists!&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;At the end of the week we managed to have a site that had close to all the functionality we set out for. Cause of the little time we had this week for the project I doubt that more then 5 lines of code were written to style the frontend, with the consequence that in our group any un-styled collection of lists now carries my name. Ah well, I guess I&amp;rsquo;ll wear it with pride :)&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;Let&amp;rsquo;s be friends&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Visit our &lt;a href="https://boiling-mountain-76299.herokuapp.com/" target="blank"&gt;Hug me&lt;/a&gt; site, and feel free to signup and send me a friendrequest there :)   &lt;/p&gt;
+
+&lt;p&gt;Or check out the code at &lt;a href="https://github.com/joostcalis/Social2/tree/comments_" target="blank"&gt;Github&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -109,7 +128,7 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
     <link rel="alternate" href="http://blog.url.com/2016/03/10/week2-Cabins.html"/>
     <id>http://blog.url.com/2016/03/10/week2-Cabins.html</id>
     <published>2016-03-10T01:00:00+01:00</published>
-    <updated>2016-03-13T21:43:20+01:00</updated>
+    <updated>2016-03-18T13:21:20+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -130,6 +149,10 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
 &lt;h3&gt;&lt;strong&gt;Devise&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;Since we hadn&amp;rsquo;t learned how to create sign up functionality yet, a lot of time the first days was spent on figuring out ways to identify which user was on the site at a particular moment and coming up with inefficient tricks to still connect that user to other models. I thought that this sign up functionality would for sure be very complicated and was kind of nervous about it. Man was I wrong. On Thursday we got introduced to Devise and I couldn&amp;rsquo;t believe how simple it was to implement. Ow and all the new possibilities. U could now check if a user was signed in, build your views dependent on that information, and so much more!&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;Try it yourself&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Check out our &lt;a href="http://morning-headland-40589.herokuapp.com" target="blank"&gt;Cabins&lt;/a&gt; website, or look through our code at &lt;a href="https://github.com/joostcalis/airbnb" target="blank"&gt;Github&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>

@@ -474,3 +474,59 @@ a:hover {
   margin-bottom: 50px;
   text-align: center;
   color: black; }
+
+@media only screen and (max-width: 480px) {
+  /* line 139, site.css.scss */
+  .previous-button {
+    margin-top: 19%;
+    position: relative; }
+
+  /* line 144, site.css.scss */
+  .next-button {
+    margin-top: 19%;
+    position: relative; }
+
+  /* line 149, site.css.scss */
+  .navbar-links {
+    float: left; } }
+/* line 154, site.css.scss */
+.project-caption {
+  width: 65%;
+  box-shadow: 2px 2px 5px #888888;
+  border-radius: 3px;
+  margin-bottom: 7%; }
+
+/* line 163, site.css.scss */
+.project-card-left {
+  text-align: justify;
+  font-size: 0.9em;
+  border-top: 1px solid black;
+  padding: 5px;
+  margin-right: 4%; }
+
+/* line 170, site.css.scss */
+.project-card {
+  text-align: justify;
+  font-size: 0.9em;
+  border-top: 1px solid black;
+  padding: 5px;
+  margin-left: 4%; }
+
+/* line 179, site.css.scss */
+.project-card h2 {
+  text-align: center;
+  margin-bottom: 7%; }
+
+/* line 183, site.css.scss */
+.project-card-left h2 {
+  text-align: center;
+  margin-bottom: 7%; }
+
+/* line 188, site.css.scss */
+.footer {
+  margin-left: 45%; }
+
+/* line 192, site.css.scss */
+.footer-margin {
+  margin-top: 2%;
+  margin-bottom: -3%; }
