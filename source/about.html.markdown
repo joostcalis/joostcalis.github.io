@@ -23,5 +23,6 @@ Some of my qualities are:
 
 * Hard worker
 * Fast learner
-* Work good in teams
-* Very open to new information and learning opportunities
+* Strong teamplayer
+* Logical thinker
+* Always excited about new information and learning opportunities

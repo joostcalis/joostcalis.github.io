@@ -24,6 +24,7 @@
         <ul class="nav navbar-nav">
           <li><%= link_to 'Home', '/', class: "navbar-list" %></li>
           <li class="navbar-list"><%= link_to 'About me', '/about.html', class: "navbar-list" %></li>
+          <li class="navbar-list"><%= link_to 'My projects', '/projects.html', class: "navbar-list" %></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
@@ -47,6 +48,12 @@
     </nav>
 
     <%= yield %>
-
+    <nav class="navbar navbar-default navigation footer-margin">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav footer">
+          <li><a href="#Top" class="navbar-list"> Back to Top</a></li>
+        </ul>
+      </div>
+    </nav>
   </body>
 </html>

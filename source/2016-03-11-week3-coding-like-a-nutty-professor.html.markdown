@@ -20,3 +20,10 @@ The teachers had already said that there will be times you gotta let a problem g
 
 ### **Unordered lists? un-styled lists!**
 At the end of the week we managed to have a site that had close to all the functionality we set out for. Cause of the little time we had this week for the project I doubt that more then 5 lines of code were written to style the frontend, with the consequence that in our group any un-styled collection of lists now carries my name. Ah well, I guess I'll wear it with pride :)
+
+
+### **Let's be friends**
+
+Visit our <a href="https://boiling-mountain-76299.herokuapp.com/" target="blank">Hug me</a> site, and feel free to signup and send me a friendrequest there :)   
+
+Or check out the code at <a href="https://github.com/joostcalis/Social2/tree/comments_" target="blank">Github</a>
