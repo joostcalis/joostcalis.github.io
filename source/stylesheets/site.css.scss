@@ -7,6 +7,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
   margin-left: 5px;
+  margin-bottom: 40px;
 }
 
 .logo img {
@@ -185,11 +186,27 @@ a:hover {
   margin-bottom: 7%;
 }
 
-.footer {
-  margin-left: 45%;
+.footer-container {
+  background-color: #00304d;
 }
 
-.footer-margin {
-  margin-top: 2%;
-  margin-bottom: -3%;
+.footer-content {
+  color: #F7FCFF;
+  font-size: .8em;
+  margin-top: .8%;
+  float:right;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #00304d;
 }

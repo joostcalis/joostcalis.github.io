@@ -4,7 +4,7 @@ date: 2016-03-10
 tags: about
 layout: about
 ---
-## Some info about me
+## About me
 
 
 My name is Joost Calis. I'm 31 years old, living in Bussum with my wife and 4 year old son. Before starting this coding adventure I was a baseball coach at HCAW in Bussum.
@@ -23,6 +23,6 @@ Some of my qualities are:
 
 * Hard worker
 * Fast learner
-* Strong teamplayer
+* Strong team player
 * Logical thinker
 * Always excited about new information and learning opportunities
