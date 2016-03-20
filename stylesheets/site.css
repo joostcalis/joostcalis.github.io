@@ -353,14 +353,15 @@ body {
   text-align: left;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
-  margin-left: 5px; }
+  margin-left: 5px;
+  margin-bottom: 40px; }
 
-/* line 12, site.css.scss */
+/* line 13, site.css.scss */
 .logo img {
   height: 18.75em;
   margin-top: 6em; }
 
-/* line 17, site.css.scss */
+/* line 18, site.css.scss */
 h1 {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -368,13 +369,13 @@ h1 {
   font-weight: 400;
   margin: 0; }
 
-/* line 25, site.css.scss */
+/* line 26, site.css.scss */
 .doc {
   margin: 3em 0;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   font-weight: 300; }
-  /* line 31, site.css.scss */
+  /* line 32, site.css.scss */
   .doc a {
     border: 1px solid white;
     border-radius: 3px;
@@ -382,13 +383,13 @@ h1 {
     color: white;
     text-decoration: none;
     transition: color 0.1s linear; }
-    /* line 38, site.css.scss */
+    /* line 39, site.css.scss */
     .doc a:hover {
       background: rgba(0, 0, 0, 0.2);
       color: white;
       transition: all 0.15s linear; }
 
-/* line 46, site.css.scss */
+/* line 47, site.css.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
@@ -406,17 +407,17 @@ h1 {
     opacity: 1; }
   to {
     -webkit-transform: scale(1); } }
-/* line 70, site.css.scss */
+/* line 71, site.css.scss */
 .main {
   border-top: 1px solid black;
   margin-bottom: 5px;
   padding: 5px; }
 
-/* line 76, site.css.scss */
+/* line 77, site.css.scss */
 .index-right {
   font-size: 0.7em; }
 
-/* line 80, site.css.scss */
+/* line 81, site.css.scss */
 .image {
   width: 75%;
   box-shadow: 2px 2px 5px #888888;
@@ -424,79 +425,79 @@ h1 {
   border-radius: 3px;
   margin-left: 15%; }
 
-/* line 89, site.css.scss */
+/* line 90, site.css.scss */
 .previous-button {
   position: fixed;
   margin-top: 19%; }
 
-/* line 94, site.css.scss */
+/* line 95, site.css.scss */
 .next-button {
   position: fixed;
   margin-top: 19%; }
 
-/* line 99, site.css.scss */
+/* line 100, site.css.scss */
 a {
   color: #006199; }
 
-/* line 103, site.css.scss */
+/* line 104, site.css.scss */
 a:hover {
   text-decoration: none;
   color: #004166; }
 
-/* line 108, site.css.scss */
+/* line 109, site.css.scss */
 .article-title {
   margin-bottom: 35px;
   margin-top: 25px;
   color: black;
   text-align: center; }
 
-/* line 115, site.css.scss */
+/* line 116, site.css.scss */
 .navigation {
   background-color: #00304d; }
 
-/* line 119, site.css.scss */
+/* line 120, site.css.scss */
 .navbar-list {
   color: #F7FCFF !important; }
 
-/* line 122, site.css.scss */
+/* line 123, site.css.scss */
 .navbar-list:hover {
   color: black !important; }
 
-/* line 126, site.css.scss */
+/* line 127, site.css.scss */
 .welcome-header {
   margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
   color: black; }
 
-/* line 132, site.css.scss */
+/* line 133, site.css.scss */
 .welcome-header1 {
   margin-bottom: 50px;
   text-align: center;
   color: black; }
 
 @media only screen and (max-width: 480px) {
-  /* line 139, site.css.scss */
+  /* line 140, site.css.scss */
   .previous-button {
     margin-top: 19%;
     position: relative; }
 
-  /* line 144, site.css.scss */
+  /* line 145, site.css.scss */
   .next-button {
     margin-top: 19%;
     position: relative; }
 
-  /* line 149, site.css.scss */
+  /* line 150, site.css.scss */
   .navbar-links {
     float: left; } }
-/* line 154, site.css.scss */
+/* line 155, site.css.scss */
 .project-caption {
   width: 65%;
   box-shadow: 2px 2px 5px #888888;
   border-radius: 3px;
   margin-bottom: 7%; }
 
-/* line 163, site.css.scss */
+/* line 164, site.css.scss */
 .project-card-left {
   text-align: justify;
   font-size: 0.9em;
@@ -504,7 +505,7 @@ a:hover {
   padding: 5px;
   margin-right: 4%; }
 
-/* line 170, site.css.scss */
+/* line 171, site.css.scss */
 .project-card {
   text-align: justify;
   font-size: 0.9em;
@@ -512,21 +513,37 @@ a:hover {
   padding: 5px;
   margin-left: 4%; }
 
-/* line 179, site.css.scss */
+/* line 180, site.css.scss */
 .project-card h2 {
   text-align: center;
   margin-bottom: 7%; }
 
-/* line 183, site.css.scss */
+/* line 184, site.css.scss */
 .project-card-left h2 {
   text-align: center;
   margin-bottom: 7%; }
 
-/* line 188, site.css.scss */
-.footer {
-  margin-left: 45%; }
+/* line 189, site.css.scss */
+.footer-container {
+  background-color: #00304d; }
 
-/* line 192, site.css.scss */
-.footer-margin {
-  margin-top: 2%;
-  margin-bottom: -3%; }
+/* line 193, site.css.scss */
+.footer-content {
+  color: #F7FCFF;
+  font-size: .8em;
+  margin-top: .8%;
+  float: right; }
+
+/* line 200, site.css.scss */
+html {
+  position: relative;
+  min-height: 100%; }
+
+/* line 205, site.css.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #00304d; }

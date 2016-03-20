@@ -59,7 +59,7 @@ http://physiotherapist-walrus-68848.bitballoon.com/" target="blank"&gt;Ballparks
     <link rel="alternate" href="http://blog.url.com/2016/03/12/frontend-fun.html"/>
     <id>http://blog.url.com/2016/03/12/frontend-fun.html</id>
     <published>2016-03-12T01:00:00+01:00</published>
-    <updated>2016-03-13T22:27:22+01:00</updated>
+    <updated>2016-03-20T23:39:08+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -72,11 +72,11 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
 
 &lt;h3&gt;&lt;strong&gt;More long nights&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;It&amp;rsquo;s funny though how through these weeks I kept going through these continuous stages of thinking &amp;ldquo;damn I get it!&amp;rdquo; to &amp;ldquo;oh wait..no I don&amp;rsquo;t&amp;rdquo;. Cause after a pretty good first day where we set up our initial app and components, the second day brought more and more confusion about what was actually going on with handing down props and a lot of this&amp;rsquo;s flying around. I felt myself getting closer and closer to that nutty professor stage I talked about earlier.. Thankfully I recognized the feeling this time and figured it was better to really try and regrasp the concept of how it all worked before writing another letter of code. A very clear explanation from a fellow student who had just had one of those &amp;ldquo;aha&amp;rdquo; moments later (you rock tjin!) I had a clear head again. But I also realized we had to basically rewrite most of our code from scratch since too much had been added without really knowing what it all did. It was gonna be another long night..&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s funny though how through these weeks I kept going through these continuous stages of thinking &amp;ldquo;damn I get it!&amp;rdquo; to &amp;ldquo;oh wait..no I don&amp;rsquo;t&amp;rdquo;. Cause after a pretty good first day where we set up our initial app and components, the second day brought more and more confusion about what was actually going on with handing down props and a lot of this&amp;rsquo;s flying around. I felt myself getting closer and closer to that nutty professor stage I talked about earlier.. Thankfully I recognized the feeling this time and figured it was better to really try and regrasp the concept of how it all worked before writing another letter of code. A very clear explanation from a fellow student who had just had one of those &amp;ldquo;aha&amp;rdquo; moments later (you rock Tjin!) I had a clear head again. But I also realized we had to basically rewrite most of our code from scratch since too much had been added without really knowing what it all did. It was gonna be another long night..&lt;/p&gt;
 
 &lt;h3&gt;&lt;strong&gt;Front End isn&amp;rsquo;t scary&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;For the backend we build a simple RESTful API in rails, where projects and their tasks would be stored and rendered in JSON. It was a really good feeling to see that after 3 weeks Rails already felt so familiar that we had this up and running in no time without any real issues. This also gave me the chance to really spend time oN learning React. Maybe I&amp;rsquo;m starting to repeat myself but man it was fun again! The same puzzling your way to the next step, the same trying to come up with efficient ways to get something to work. I&amp;rsquo;m starting to see a pattern here..&lt;/p&gt;
+&lt;p&gt;For the backend we build a simple RESTful API in rails, where projects and their tasks would be stored and rendered in JSON. It was a really good feeling to see that after 3 weeks Rails already felt so familiar that we had this up and running in no time without any real issues. This also gave me the chance to really spend time on learning React. Maybe I&amp;rsquo;m starting to repeat myself but man it was fun again! The same puzzling your way to the next step, the same trying to come up with efficient ways to get something to work. I&amp;rsquo;m starting to see a pattern here..&lt;/p&gt;
 
 &lt;h3&gt;&lt;strong&gt;More teamwork&lt;/strong&gt;&lt;/h3&gt;
 
@@ -87,6 +87,17 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
 &lt;h3&gt;&lt;strong&gt;Draw it out&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;One last thing I wanted to add. Whenever you&amp;rsquo;re stuck or feel like you&amp;rsquo;re losing sight of what you&amp;rsquo;re doing, but actually just always before you start working on something, draw it out. It took some time for me to realize this, but this week made it clear to me how important it is. It just makes it so much simpler to see the flow of things and to always know in what part of the code you&amp;rsquo;re working. Just a simple glance at what you drew out or wrote down and you will remember what you were doing and why. And don&amp;rsquo;t make the excuse that you&amp;rsquo;re not good at drawing or whatever, I mean trust me my 4 year old draws better faces than I do.&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;See our projectmanager in action&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Check out our &lt;a href="http://bookie-duck-12856.bitballoon.com/" target="blank"&gt;project manager&lt;/a&gt; in action.&lt;/p&gt;
+
+&lt;p&gt;Or look through our code at Github:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the &lt;a href="https://github.com/joostcalis/Doit_backend" target="blank"&gt;Back End RESTful API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the &lt;a href="https://github.com/johant87/do-it-front" target="blank"&gt;Front End React App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
@@ -128,7 +139,7 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
     <link rel="alternate" href="http://blog.url.com/2016/03/10/week2-Cabins.html"/>
     <id>http://blog.url.com/2016/03/10/week2-Cabins.html</id>
     <published>2016-03-10T01:00:00+01:00</published>
-    <updated>2016-03-18T13:21:20+01:00</updated>
+    <updated>2016-03-20T23:26:15+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -150,7 +161,7 @@ We have this awesome JavaScript teacher, who was also in charge of introducing u
 
 &lt;p&gt;Since we hadn&amp;rsquo;t learned how to create sign up functionality yet, a lot of time the first days was spent on figuring out ways to identify which user was on the site at a particular moment and coming up with inefficient tricks to still connect that user to other models. I thought that this sign up functionality would for sure be very complicated and was kind of nervous about it. Man was I wrong. On Thursday we got introduced to Devise and I couldn&amp;rsquo;t believe how simple it was to implement. Ow and all the new possibilities. U could now check if a user was signed in, build your views dependent on that information, and so much more!&lt;/p&gt;
 
-&lt;h3&gt;&lt;strong&gt;Try it yourself&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;strong&gt;Visit Cabins&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;Check out our &lt;a href="http://morning-headland-40589.herokuapp.com" target="blank"&gt;Cabins&lt;/a&gt; website, or look through our code at &lt;a href="https://github.com/joostcalis/airbnb" target="blank"&gt;Github&lt;/a&gt;&lt;/p&gt;
 </content>
