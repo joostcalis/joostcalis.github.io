@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2016/03/13/week5-hello-rspec.html"/>
     <id>http://blog.url.com/2016/03/13/week5-hello-rspec.html</id>
     <published>2016-03-13T01:00:00+01:00</published>
-    <updated>2016-03-18T20:40:00+01:00</updated>
+    <updated>2016-03-21T15:16:25+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -26,7 +26,7 @@
 
 &lt;h3&gt;&lt;strong&gt;RSpec stories&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;Before even looking at the Front end I wanted to be sure to have the back end up and running. We had been introduced to test driven development and RSpec the week before, but up until now I hadn&amp;rsquo;t really focused on it besides writing some random tests to see if they would pass. Part of the assignment now though was to really focus on TDD while creating the back end. For the first time I made sure to implement tests before writing the next piece of code. Whether a simple action like adding some routing, or creating connections, I wrote tests first and had guard running. It seriously didn&amp;rsquo;t take long for me to see the benefits. I was writing a create method I think and apparently made a small typo somewhere that i didn&amp;rsquo;t catch. When my tests kept failing it didn&amp;rsquo;t take long to find the typo. Now I know this wasn&amp;rsquo;t some huge event worthy of dedicating a whole paragraph to. But since 2 or 3 nights before that I had spent at least an hour rereading my code, too tired to find a similar mistake, I felt it was worth sharing.&lt;/p&gt;
+&lt;p&gt;Before even looking at the Front end I wanted to be sure to have the back end up and running. We had been introduced to test driven development and RSpec the week before, but up until now I hadn&amp;rsquo;t really focused on it besides writing some random tests to see if they would pass. Part of the assignment now though was to really focus on TDD while creating the back end. For the first time I made sure to implement tests before writing the next piece of code. Whether a simple action like adding some routing, or creating connections, I wrote tests first and had guard running. It seriously didn&amp;rsquo;t take long for me to see the benefits. I was writing a create method and without realizing it I had made a spelling error and it didn’t take long to find that spelling error when my tests continually failed. Now I know this wasn&amp;rsquo;t some huge event worthy of dedicating a whole paragraph to. But since 2 nights before that I had spent at least an hour rereading my code, too tired to find a similar mistake, I felt it was worth sharing.&lt;/p&gt;
 
 &lt;h3&gt;&lt;strong&gt;RIP nutty professor&lt;/strong&gt;&lt;/h3&gt;
 
@@ -42,7 +42,7 @@
 
 &lt;h3&gt;&lt;strong&gt;Visit Ballparks&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;As with all projects we did these 5 weeks, they are still under constant construction.&lt;br&gt;
+&lt;p&gt;As with all projects we did these 5 weeks, this project is still under constant construction.&lt;br&gt;
 But feel free to visit &lt;a href="
 http://physiotherapist-walrus-68848.bitballoon.com/" target="blank"&gt;Ballparks&lt;/a&gt;.&lt;/p&gt;
 
