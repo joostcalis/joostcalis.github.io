@@ -547,3 +547,8 @@ footer {
   /* Set the fixed height of the footer here */
   height: 40px;
   background-color: #00304d; }
+
+/* line 214, site.css.scss */
+.contact-header {
+  margin-bottom: 2%;
+  text-align: left; }
